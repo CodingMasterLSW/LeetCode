@@ -1,11 +1,19 @@
 class Solution {
     public void rotate(int[] nums, int k) {
-        k %= nums.length;
-        int[] result = new int[nums.length];
-    
-        for(int i = 0; i < nums.length; i++) {
-            result[i] = nums[(nums.length - k + i) % nums.length];
+        Deque<Integer> deq = new ArrayDeque<>();
+        for (int i=0; i<nums.length; i++) {
+            deq.offer(nums[i]);
         }
-        System.arraycopy(result, 0, nums, 0, result.length);
+
+        // for (k =3)
+        // int last = getLastIndex()
+        // deq.offer(last);
+        for (int i=0; i<k; i++) {
+            int current = deq.pollLast(); // point
+            deq.offerFirst(current); // wrong 
+        }
+        for (int i=0; i<nums.length; i++) {
+            nums[i] = deq.poll();
+        }
     }
 }
