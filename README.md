@@ -46,6 +46,7 @@ practice codingTest
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0008-string-to-integer-atoi](https://github.com/CodingMasterLSW/LeetCode/tree/main/0008-string-to-integer-atoi/) | Medium |
 | [0242-valid-anagram](https://github.com/CodingMasterLSW/LeetCode/tree/main/0242-valid-anagram/) | Easy |
 | [0344-reverse-string](https://github.com/CodingMasterLSW/LeetCode/tree/main/0344-reverse-string/) | Easy |
 | [0387-first-unique-character-in-a-string](https://github.com/CodingMasterLSW/LeetCode/tree/main/0387-first-unique-character-in-a-string/) | Easy |
