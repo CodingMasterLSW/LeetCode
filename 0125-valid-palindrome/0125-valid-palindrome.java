@@ -9,9 +9,9 @@ class Solution {
                 sb.append(newS.charAt(i));
             }
         }
-        
+
         String r = sb.toString();
-        for (int i=0; i<r.length(); i++) {
+        for (int i=0; i<r.length()/2; i++) {
             if (r.charAt(i) != r.charAt(r.length()-1-i)) {
                 return false;
             }
