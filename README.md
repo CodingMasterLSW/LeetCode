@@ -34,6 +34,7 @@ practice codingTest
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0007-reverse-integer](https://github.com/CodingMasterLSW/LeetCode/tree/main/0007-reverse-integer/) | Medium |
 | [0066-plus-one](https://github.com/CodingMasterLSW/LeetCode/tree/main/0066-plus-one/) | Easy |
 ## Matrix
 | Problem Name | Difficulty |
