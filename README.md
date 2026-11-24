@@ -22,6 +22,7 @@ practice codingTest
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0125-valid-palindrome](https://github.com/CodingMasterLSW/LeetCode/tree/main/0125-valid-palindrome/) | Easy |
 | [0283-move-zeroes](https://github.com/CodingMasterLSW/LeetCode/tree/main/0283-move-zeroes/) | Easy |
 | [0344-reverse-string](https://github.com/CodingMasterLSW/LeetCode/tree/main/0344-reverse-string/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/CodingMasterLSW/LeetCode/tree/main/0350-intersection-of-two-arrays-ii/) | Easy |
@@ -47,6 +48,7 @@ practice codingTest
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0008-string-to-integer-atoi](https://github.com/CodingMasterLSW/LeetCode/tree/main/0008-string-to-integer-atoi/) | Medium |
+| [0125-valid-palindrome](https://github.com/CodingMasterLSW/LeetCode/tree/main/0125-valid-palindrome/) | Easy |
 | [0242-valid-anagram](https://github.com/CodingMasterLSW/LeetCode/tree/main/0242-valid-anagram/) | Easy |
 | [0344-reverse-string](https://github.com/CodingMasterLSW/LeetCode/tree/main/0344-reverse-string/) | Easy |
 | [0387-first-unique-character-in-a-string](https://github.com/CodingMasterLSW/LeetCode/tree/main/0387-first-unique-character-in-a-string/) | Easy |
