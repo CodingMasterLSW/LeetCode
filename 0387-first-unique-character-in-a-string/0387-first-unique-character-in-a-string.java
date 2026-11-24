@@ -1,23 +1,13 @@
 class Solution {
     public int firstUniqChar(String s) {
-        Set<Character> arr = new HashSet<>();
-        Set<Character> wrong = new HashSet<>();
+        Map<Character, Integer> maps = new HashMap<>();
 
         for (int i=0; i<s.length(); i++) {
-            char t = s.charAt(i);
-            if (wrong.contains(t)) {
-                continue;
-            }
-            if (arr.contains(t)) {
-                arr.remove(t);
-                wrong.add(t);
-            } else {
-                arr.add(t);
-            }
+            maps.put(s.charAt(i), maps.getOrDefault(s.charAt(i), 0) + 1);
         }
 
         for (int i=0; i<s.length(); i++) {
-            if (arr.contains(s.charAt(i))) {
+            if (maps.get(s.charAt(i)) == 1) {
                 return i;
             }
         }
